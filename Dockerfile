@@ -8,7 +8,7 @@ WORKDIR /app-ui
 
 COPY . .
 
-RUN npm run ng build --prod
+RUN npm run ng build
 
 
 FROM nginx:alpine
