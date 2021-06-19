@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: white;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -396,6 +396,9 @@ section {
     z-index:120;
     text-align:center; 
 	}
+	#portfolio h2, h3,  p {
+        color:#4c4c4c;
+    }
 #portfolio .col-md-3
 	{
 		padding: 0px;
@@ -452,6 +455,7 @@ section {
 #contact
 	{
 		background: #202020;
+		margin-top: 40px;
 	}
 #contact .form-control
 	{
@@ -462,10 +466,12 @@ section {
 		color: #fff;
 		margin-top: 6px;
 		margin-bottom: 16px;
+		
 	}
-#contact label
+#contact label, p
 	{
 		font-weight: 500;
+		color: white;
 	}
 #contact input
 	{
