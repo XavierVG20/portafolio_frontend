@@ -8,7 +8,7 @@ WORKDIR /app-ui
 
 COPY . .
 
-RUN npm run ng build -- --deploy-url=/envapp/ --prod
+RUN npm run ng build --prod
 
 
 FROM nginx:alpine
